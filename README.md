@@ -4,7 +4,11 @@ To start the project run in terminal (docker is required)
 <code>
 docker-compose up -d
 </code>
-
+after deployed project run 
+<code>
+docker-compose exec php-fpm composer install
+</code>
+to install dependencies 
 
 ### Api Documentation
 
